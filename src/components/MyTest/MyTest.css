@@ -1,0 +1,10 @@
+.MyTest {
+    text-align: center;
+    margin:1em 0;
+}
+.MyTest__headline {
+    margin:0;
+}
+.MyTest__text {
+    margin:0.5em 0;
+}

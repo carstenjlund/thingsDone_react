@@ -1,0 +1,9 @@
+.MainArticle {
+    background-color: #fff;
+    width: 25em;
+    margin: 0 auto;
+}
+
+.MainArticle__text {
+    line-height: 1.6;
+}
