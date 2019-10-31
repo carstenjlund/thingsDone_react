@@ -3,7 +3,8 @@ import React from 'react';
 export default function MyForm({ updateThings }) {
   const preventButRefresh = event => {
     event.preventDefault();
-    updateThings(event.target.thing.value)
+    let newThing = event.target.thing.value
+    updateThings(newThing)
     event.target.reset();
   };
 
