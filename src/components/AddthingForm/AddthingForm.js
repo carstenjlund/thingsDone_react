@@ -1,4 +1,7 @@
 import React from 'react';
+import SubmitButton from '../../elements/SubmitButton'
+import FormInput from '../../elements/FormInput'
+import './AddThingForm.css'
 
 export default function AddThingForm({ updateThings }) {
   const preventButRefresh = event => {
@@ -8,10 +11,16 @@ export default function AddThingForm({ updateThings }) {
     event.target.reset();
   };
 
+  const inputProps = {
+    type: 'text',
+    name: 'thing',
+    placeholder: 'Add a thing...'
+  }
+
   return (
-    <form onSubmit={preventButRefresh} >
-      <input type="text" name="thing" placeholder="Add a thing ..." />
-      <button type="submit">submit</button>
+    <form className="addThingForm" onSubmit={preventButRefresh} >
+      <FormInput {...inputProps} />
+      <SubmitButton />
     </form>
   )
 }
