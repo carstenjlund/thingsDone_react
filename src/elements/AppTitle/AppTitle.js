@@ -1,9 +1,7 @@
 import React from 'react';
 
-export function AppTitle() {
+export function AppTitle({ apptitle }) {
     return (
-        <React.Fragment>
-            <h1>Things I have done today</h1>
-        </React.Fragment>
+        <h1>{apptitle}</h1>
     )
 }

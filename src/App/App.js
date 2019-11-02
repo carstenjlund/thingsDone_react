@@ -7,12 +7,14 @@ import Main from '../components/Main'
 import Footer from '../components/Footer'
 
 export default function App() {
+  const APPTITLE = 'Things I have done today'
+  const APPNAME = 'Things Done Application'
   return (
     <BrowserRouter>
-      <Header />
+      <Header apptitle={APPTITLE} />
       <Navigation />
       <Main />
-      <Footer />
+      <Footer appname={APPNAME} />
     </BrowserRouter>
   );
 }

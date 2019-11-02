@@ -2,11 +2,13 @@ import React from 'react';
 import AppTitle from '../../elements/AppTitle'
 import './Header.css';
 
-export function Header() {
+export function Header(props) {
+
+    const TITLE = props.apptitle
 
     return (
         <header className="App-header">
-            <AppTitle />
+            <AppTitle apptitle={TITLE} />
         </header>
     )
 }
