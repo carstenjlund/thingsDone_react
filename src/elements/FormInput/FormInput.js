@@ -1,9 +1,14 @@
 import React from 'react'
 import './FormInput.css'
 
-export function FormInput(props) {
+export function FormInput({ type, name, placeholder }) {
 
     return (
-        <input className="formfield" type={props.type} name={props.name} placeholder={props.placeholder} />
+        <input
+            className="formfield"
+            type={type}
+            name={name}
+            placeholder={placeholder}
+        />
     )
 }
