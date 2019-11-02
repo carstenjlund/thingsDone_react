@@ -1,12 +1,12 @@
 import React from 'react';
 import './ThingsDoneNumber.css';
 
-export default function MyTest({ NoOfThings }) {
+export default function ThingsDoneNumber({ NoOfThings }) {
   return (
-    <section className="MyTest">
-      <p className="MyTest__text">You did</p>
-      <h2 className="MyTest__headline">{NoOfThings}</h2>
-      <p className="MyTest__text">things today...</p>
+    <section className="ThingsDoneNumber">
+      <p className="ThingsDoneNumber__text">You did</p>
+      <h2 className="ThingsDoneNumber__headline">{NoOfThings}</h2>
+      <p className="ThingsDoneNumber__text">things today...</p>
     </section>
   )
 }

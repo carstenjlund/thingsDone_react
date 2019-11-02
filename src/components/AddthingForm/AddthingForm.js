@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function MyForm({ updateThings }) {
+export default function AddThingForm({ updateThings }) {
   const preventButRefresh = event => {
     event.preventDefault();
     let newThing = event.target.thing.value

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function MyList({ thingsDone }) {
+export default function ThingsDoneList({ thingsDone }) {
   return (
     <ul>
       {thingsDone.map(current => (

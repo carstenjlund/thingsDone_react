@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-import MyList from '../../components/ThingsDoneList/ThingsDoneList.js'
-import MyTest from '../../components/ThingsDoneNumber/ThingsDoneNumber.js'
-import MyForm from '../../components/AddthingForm/AddthingForm.js'
+import ThingsDoneList from '../../components/ThingsDoneList/ThingsDoneList.js'
+import ThingsDoneNumber from '../../components/ThingsDoneNumber/ThingsDoneNumber.js'
+import AddThingForm from '../../components/AddthingForm/AddthingForm.js'
 
 import './ThingsDone.css';
 
@@ -42,9 +42,9 @@ export function ThingsDone() {
     } else {
         return (
             <section className="thingsdone">
-                <MyList thingsDone={thingsDone} />
-                <MyTest NoOfThings={thingsDone.length} />
-                <MyForm updateThings={updateThings} />
+                <ThingsDoneList thingsDone={thingsDone} />
+                <ThingsDoneNumber NoOfThings={thingsDone.length} />
+                <AddThingForm updateThings={updateThings} />
             </section >
         );
     }
