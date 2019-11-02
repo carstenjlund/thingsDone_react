@@ -1,5 +1,5 @@
 import React from 'react';
-import './MyTest.css';
+import './ThingsDoneNumber.css';
 
 export default function MyTest({ NoOfThings }) {
   return (

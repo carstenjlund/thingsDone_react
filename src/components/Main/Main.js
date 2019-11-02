@@ -2,9 +2,9 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import './Main.css';
 
-import Home from '../Home'
-import ThingsDone from '../ThingsDone'
-import About from '../About'
+import Home from '../../views/Home'
+import ThingsDone from '../../views/ThingsDone'
+import About from '../../views/About'
 
 export function Main() {
 

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-import MyList from '../MyList/MyList.js'
-import MyTest from '../MyTest/MyTest.js'
-import MyForm from '../MyForm/MyForm.js'
+import MyList from '../../components/ThingsDoneList/ThingsDoneList.js'
+import MyTest from '../../components/ThingsDoneNumber/ThingsDoneNumber.js'
+import MyForm from '../../components/AddthingForm/AddthingForm.js'
 
 import './ThingsDone.css';
 
