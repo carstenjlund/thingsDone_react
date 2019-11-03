@@ -14,7 +14,7 @@ export default function AddThingForm({ updateThings }) {
   const inputProps = {
     type: 'text',
     name: 'thing',
-    placeholder: 'Add a thing...'
+    placeholder: 'A thing I did...'
   }
 
   return (

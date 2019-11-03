@@ -4,6 +4,6 @@ import './SubmitButton.css'
 export function SubmitButton() {
 
     return (
-        <button className="btn" type="submit">Submit</button >
+        <button className="btn" type="submit">Add</button >
     )
 }
