@@ -24,10 +24,4 @@ export const thingsReducer = (state = initState, action) => {
     // !!!!!! It took fucking 4 hours !!!!!!
 }
 
-
 export const addAction = (thing) => ({ type: 'ADD_THING', payload: thing })
-
-
-
-
-
