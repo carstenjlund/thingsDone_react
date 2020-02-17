@@ -1,6 +1,9 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
 
-export default function ThingsDoneList({ thingsDone }) {
+export default function ThingsDoneList() {
+  const thingsDone = useSelector(state => state.thingsDone)
+
   return (
     <ul>
       {thingsDone.map(current => (

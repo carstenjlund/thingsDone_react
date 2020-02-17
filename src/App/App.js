@@ -10,11 +10,14 @@ export default function App() {
   const APPTITLE = 'Things I have done today'
   const APPNAME = 'Things Done Application'
   return (
+
     <BrowserRouter>
       <Header apptitle={APPTITLE} />
       <Navigation />
       <Main />
       <Footer appname={APPNAME} />
     </BrowserRouter>
+
+
   );
 }
