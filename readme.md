@@ -8,6 +8,6 @@ The application is inspired by an online tutorial about web components. I forget
 
 I later extended the project a little bit, adding the React Router wiht sub-pages, and fetching of data, and populating components with the useEffects-hook.
 
-The repo is deployed to netlify at [this link](https://nestrac-react-app.netlify.com)
+The repo is deployed to netlify at [this link](https://nestrac-react-app.netlify.app)
 
 <sub><sup>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</sup></sub>
